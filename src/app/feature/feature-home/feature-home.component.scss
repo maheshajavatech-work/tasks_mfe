@@ -1,0 +1,68 @@
+.feature-container {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.task-list {
+  margin-bottom: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.task-title {
+  font-weight: 500;
+  color: #333;
+}
+
+.chip {
+  padding: 5px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.done {
+  background-color: #4caf50;
+}
+
+.in-progress {
+  background-color: #2196f3;
+}
+
+.pending {
+  background-color: #ff9800;
+}
+
+.add-task-btn {
+  background-color: #673ab7;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-left: 0;
+}
+
+.add-task-btn:hover {
+  background-color: #5e35b1;
+}
