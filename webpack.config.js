@@ -1,5 +1,3 @@
-// tasks_mfe/webpack.config.js
-
 const { shareAll, withModuleFederationPlugin } =
   require('@angular-architects/module-federation/webpack');
 const webpack = require('webpack');
@@ -27,7 +25,6 @@ module.exports = withModuleFederationPlugin(
       new webpack.DefinePlugin({
         'process.env.MFE_APP_VERSION': JSON.stringify(version)
       })
-      // no CopyWebpackPlugin here
     ]
   }
 );
