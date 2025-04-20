@@ -17,7 +17,7 @@
 				"build": {
 					"builder": "ngx-build-plus:browser",
 					"options": {
-						"outputPath": "dist/mfe1",
+						"outputPath": "dist",
 						"index": "src/index.html",
 						"polyfills": [
 							"zone.js"
@@ -29,6 +29,11 @@
 								"glob": "**/*",
 								"input": "public",
 								"output": "."
+							},
+							{
+								"glob": "**/*",
+								"input": "src/assets",
+								"output": "assets"
 							}
 						],
 						"styles": [
